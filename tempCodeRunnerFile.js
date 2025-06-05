@@ -1,7 +1,14 @@
-function sqr(n){
-    let s=n*n;
-    console.log(s);
+function red(c1,c2){    
+        console.log("this is red");
+     
+     c1(c2)
+    }
+    function blue(c3){
+        console.log("this is blue")
+        c3()
+    }
+    function green(){
+        console.log("this is green")
 
     }
-
-    sqr(3);
+    red(blue,green);
