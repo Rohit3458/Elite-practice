@@ -7,4 +7,10 @@ for(a=0;a<10;a++){
          console.log("odd number");
     }
 }
+function sqr(n){
+    let s=n*n;
+    console.log(s);
 
+    }
+
+    sqr(3);
